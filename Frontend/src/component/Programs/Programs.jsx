@@ -6,31 +6,40 @@ import program_3 from '../../assets/program-3.png'
 import program_icon_1 from '../../assets/program-icon-1.png'
 import program_icon_2 from '../../assets/program-icon-2.png'
 import program_icon_3 from '../../assets/program-icon-3.png'
+import { Link } from 'react-router-dom'
+
 
 const Programs = () => {
   return (
     <div className='programs'>
-        <div className="program">
+
+    
+        
+           
+        <Link to= "/bachelor" className="program">
             <img src={program_1} alt="" />
+            
             <div className="caption">
                 <img src={program_icon_1} alt="" />
                 <p>Bachelor Degree</p>
             </div>
-        </div>
-        <div className="program">
+    </Link>
+       
+
+        <Link to= "/master" className="program">
             <img src={program_2} alt="" />
             <div className="caption">
                 <img src={program_icon_2} alt="" />
                 <p>Master Degree</p>
             </div>
-        </div>
-        <div className="program">
+        </Link>
+        <Link to="/eng" className="program">
             <img src={program_3} alt="" />
             <div className="caption">
                 <img src={program_icon_3} alt="" />
                 <p>Engineering Degree</p>
             </div>
-        </div>
+        </Link>
     </div>
   )
 }

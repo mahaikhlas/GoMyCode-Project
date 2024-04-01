@@ -55,3 +55,10 @@
 .user-info h3{
     color: #212EA0;
 }
+
+/*------ media query-----*/
+
+@media (max-width: 800px){
+    .testimonials{
+        
+}
