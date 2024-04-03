@@ -1,5 +1,6 @@
 import React from 'react'
 import './Master.css'
+import { Link } from 'react-router-dom'
 
 const  Master = () => {
   return (
@@ -20,9 +21,9 @@ const  Master = () => {
         </ul>
         
         </div>
-        <div>
+        <Link to='/form'>
       <button className='btn'> Subscribe to a Master program</button>
-    </div>
+    </Link>
     </div>
    
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Bachelor.css'
+import { Link } from 'react-router-dom';
 
 const  Bachelor = () => {
   return (
@@ -20,9 +21,9 @@ const  Bachelor = () => {
         </ul>
         
         </div>
-        <div>
+        <Link to='/form'>
       <button className='btn'> Subscribe to a bachelor program</button>
-    </div>
+    </Link>
     </div>
    
   )
